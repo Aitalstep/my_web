@@ -1,14 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
 header {
-    background-color: rgb(78, 247, 0);
+    background-color: rgb(217, 226, 136);
     height: 100px;
     position: relative;
 }
 .menu {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: absolute;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.menu a {
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    color: rgb(146, 88, 17);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 30px;
+    text-transform: uppercase;
+}
+
+/* main */
+.main {
+    background-color: rgb(248, 232, 88);
+    height: 800px;
+    position: relative;
+}
+._content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(238, 248, 90);
+    height: 100px;
+    text-align: center;
+    padding: 20px 0;
 }
